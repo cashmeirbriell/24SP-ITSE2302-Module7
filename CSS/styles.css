@@ -1,0 +1,90 @@
+/* Body Element CSS , shpuld male the background color black */
+body{
+    background-color: black;
+    text-align: center;
+}
+/* Main Paragraph CSS ------------------------------------------ */
+main {
+    color: #7a4c37;
+    font-size: 20px;
+    font-family: "Poetsen One", sans-serif;
+}
+/* CSS FOR HEADINGS ----------------------------------*/
+h1 {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 29 px;
+    color: #E4CBB2;
+    text-align: center;
+    text-shadow: 2px 2px #E4CBB2;
+    
+    }
+
+    h2{
+        font-family: "Shadows Into Light", cursive;
+        font-size: 19px;
+        color: #E4CBB2;
+        text-align: center;
+    text-decoration: underline;
+     }
+
+h3 , h4{
+    font-family: "Shadows Into Light", cursive;
+    font-size: 29px;
+    color: #E4CBB2;
+    text-align: center;
+    text-shadow: 2px 2px #E4CBB2;
+}
+
+/* Independangt clause for message box heading */
+
+.look{
+    font-family: "Shadows Into Light", cursive;
+    font-size: 30 px;
+    color: #E4CBB2;
+    text-align:center;
+    text-shadow: 1px 1px #E4CBB2;
+}
+    /* Independant class  */
+ 
+.col{
+    float: center;
+    }
+
+    .jada{
+        text-align: center;
+    }
+.summary{
+    color: white;
+}
+.box{
+text-align: center;
+color:#E4CBB2;
+font-size: 30 px;
+font-family: "Shadows Into Light", cursive;
+}
+
+    /* footer information --------------------------------- */
+footer{
+    color:#7a4c37
+}
+/*button css*/
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: white;
+    color: #E4CBB2;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-color: #7a4c37 ;
+    border-radius: 12%;
+    box-shadow: 0 8px;
+    cursor: pointer;
+    font-family:"Shadows Into Light", cursive;
+
+}
+
+button:hover {
+    background-color: black;
+}
+
+/*----------------------------------------------------------CSS for the summary total section */

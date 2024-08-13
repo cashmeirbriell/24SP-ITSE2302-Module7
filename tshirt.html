@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!-- lang will be in english  -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!--this page will be feature information about my pet -->
+        <meta name="description "
+            content=" This page is all a autobiography about myself ">
+        <!-- Link to CSS style page -->
+        <link rel="stylesheet" href="CSS/styles.css">
+        <!-- LINK FOR JAVA SCRIPT -->
+        <!--<script src="JavaScript/script.js"> defer</script> -->
+        <script src="Javascript/orders.js" defer></script>
+        <!--Heading for the TAB-->
+        <title>Your Tshirt Order</title>
+        <!-- BUBBLE FONT  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap"
+            rel="stylesheet">
+        <!-- SIMPLE FONT-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Shadows+Into+Light&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <!--This is the main title of the page -->
+        <header>
+            <h1> YOUR DREAM TSHIRT IS WAITING TO BE MADE </h1>
+        </header>
+        <main>
+            <h2> Please fill out the form below, and all your tshirt dreams will
+                come true</h2>
+            <div class="col">
+                <img src="Image/tshirt2.png" alt="tshirt1"></div>
+            <div> <img src="Image/tshirt1.png" alt="tshirt2">
+            </div>
+
+            <form id="shirtform">
+                <!--Text box for the users company name-->
+                <!--Div tags too wrap the company name input text field-->
+                <div>
+                    <label for="cname"> Company Name: </label>
+                    <input type="text" id="cname" name="cname">
+                </div>
+                <div>
+                    <!-- users first name -->
+                    <label for="fname"> First Name:</label>
+                    <input type="text" id="fname" name="fname">
+                </div>
+                <div>
+                    <!-- user last name-->
+                    <label for="lname">Last Name: </label>
+                    <input type="text" id="lname" name="lname">
+                </div>
+                <div>
+                    <!--user phone number-->
+                    <label for="phonenum">Phone Number:</label>
+                    <input type="text" id="phonenum" name="phonenum">
+                </div>
+                <div>
+                    <!--user email-->
+                    <label for="email"> Enter your email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <!--radio buttons there will be 3 radio buttons with 3 different prices-->
+                <div>
+                    <h3> TSHIRT PACKAGE OPTIONS </h3>
+                    <!-- radio option if they choose a sample shirt for $20.00-->
+                    <!-- id names have to be different for when im using Javascript-->
+                    <input type="radio" id="pack" name="Cake" value="20">
+                    <label for="pack">One Sample Shirt $20.00</label><br>
+                    <!-- radio button for 20-50 shirts at a price of $200-->
+                    <input type="radio" id="packone" name="Cake"
+                        value="200">
+                    <label for="packone">Twenty-Fifty Shirts / $200.00
+                    </label><br>
+                    <!-- radio button for 50-100 shirts at a price of $375-->
+                    <input type="radio" id="packtwo" name="Cake"
+                        value="375">
+                    <label for="packtwo">Fifty-One Hundred Shirts /
+                        $375.00</label><br>
+
+                </div>
+                <!-- CHECKBOX 3 TOTAL  -->
+
+                <div>
+                    <!--VINAYL OPTION-->
+                    <h4> Choose Your Design & Add One Or All </h4>
+
+                    <label for="vinayl"> Glitter/ $50.00 </label>
+                    <input type="checkbox" id="vinayl"
+                        name="box" value="50">
+                    <!--Embrodery option-->
+                    <label for="boxes">Tags / $100.00</label>
+                    <input type="checkbox" id="boxes" name="box" value="100">
+                    <!--  Heat press-->
+                    <label for="box">Steamed / $35.00</label>
+                    <input type="checkbox" id="box" name="box"
+                        value="35">
+                </div>
+                <!--File upload for logo-->
+                <div>
+                    <p class="look"> Lets Get Personal ! Show us your logo !
+                    </p>
+                    <label for="logo">Select a file:</label>
+                    <input type="file" id="logo" name="logo">
+                </div>
+                <!-- Messagebox for shirt sizes can not be emptyt-->
+                <p class="look"> Enter your sizes in the below box! </p>
+                <div class="box">
+                    <label for="MessagesBox">Sizes must match
+                        quanity
+                        ordered</label><br>
+                    <textarea id="MessagesBox" name="Box"
+                        rows="5"></textarea>
+                </div>
+                <!--Submit button-->
+                <div class="jada">
+                    <button type="submit">SUBMIT</button>
+                </div>
+                <!-- Reset-->
+                <div class="jada">
+                    <button type="reset">RESET</button>
+                </div>
+
+                <!---CODE FOR THE SUMMARY FOR THE TSHIRT ORDERS -->
+                <div class="summaryOrder"></div>
+            </form>
+        </main>
+        <footer class="jada">
+            <!-- using &copy that will display the copyright symbol -->
+            <p> Copyright 2023-2024 &copy; - <a
+                    title="Custom Tshirt Order">
+                    Cashmeir Briel Littles
+                </a>All rights reserved.</p>
+        </footer>
+    </body>
+
+</html>
